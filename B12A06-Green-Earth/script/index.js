@@ -204,3 +204,4 @@ const addToCart = (id, name, price) => {
   totalTag.innerText = total;
   cart.append(item);
 }
+
