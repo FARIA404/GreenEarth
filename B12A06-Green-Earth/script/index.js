@@ -46,7 +46,7 @@ const displayTree = (plants) => {
 
   for (let tree of plants) {
     const treeDiv = document.createElement("div");
-    const shortText = tree.description.slice(0, 65) + ".......";
+    const shortText = tree.description.slice(0, 65);
     treeDiv.innerHTML = `            
             <div class="bg-white p-3 category rounded-xl shadow-sm">
               <img

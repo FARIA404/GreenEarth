@@ -1,0 +1,25 @@
+<!--What is the difference between var, let, and const?-->
+**
+Variables declared with var are hoisted and initialized with undefined, which may cause unexpected behavior.
+let is block-scoped and cannot be re-declared in the same scope, but it can be re-assigned.
+const is a block-scoped but cannot be re-declared or re-assigned.
+
+<!-- What is the difference between map(), forEach(), and filter()? -->
+**
+map() is used to transform each element of an array and returns a new array of the same length containing the modified values. It does not change the original array.
+forEach() is used to execute a function on each element of an array but does not return any new array.
+Filter() is used to select elements based on a condition and returns a new array containing only the elements that satisfy the given condition.
+
+<!-- What are arrow functions in ES6? -->
+**
+Arrow functions are a concise syntax introduced in ES6 for writing functions in JavaScript. They provide a shorter and more readable way to define functions compared to traditional function expressions.
+
+<!-- How does destructuring assignment work in ES6? -->
+**
+Destructuring assignment is an ES6 feature that allows extracting values from arrays or properties from objects and assigning them to variables in a concise and readable way.
+
+ <!-- Explain template literals in ES6. How are they different from string concatenation? -->
+ **
+ Template literals are a feature introduced in ES6 that provide a more flexible and readable way to work with strings in JavaScript.Template literals improve code readability and reduce complexity when constructing dynamic strings.
+ **
+ String concatenation, on the other hand, combines strings using the + operator. It requires explicit handling of spaces, variables, and line breaks, which often makes the code longer and harder to read. Compared to string concatenation, template literals offer cleaner syntax, better readability, and easier expression interpolation.
